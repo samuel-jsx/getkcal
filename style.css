@@ -1,0 +1,124 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+:root{
+    --black: #1A1A1A;
+    --soft-red: #FF7373;
+}
+
+
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/* Content */
+
+body{
+    background: #282828;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+
+.container{
+    width: 550px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 150%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.form-group label{
+    font-size: 16px;
+    font-family: 'Montserrat Semibold', sans-serif;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select{
+    background: var(--black);
+    width: 100%;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius:  5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 14px;
+    padding: 0 15px;
+    outline: none;
+    transition: border-color 0.2s ease-in;
+}
+
+.form-group input:focus,
+.form-group select:focus{
+    border-color: var(--soft-red)
+}
+
+.form-group button{
+    background-image: linear-gradient(-90deg, var(--soft-red) 0, #FDDB33 100%);
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    color: #1A1A1A;
+    font-size: 16px;
+    font-family: 'Montserrat Bold', sans-serif;
+    cursor: pointer;
+}
+
+.form-group:last-child{
+    margin-top: 40px;
+}
+
+#textsmall{
+    padding: 2px;
+}
+
+
+.result-container{
+    margin-top: 50px;
+}
+
+.result-content{
+    margin-top: 10px;
+    background: #1A1A1A;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.result-content ul{
+    list-style-type: none;
+
+}
+
+
+.result-content ul li{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat Bold', sans-serif;
+    line-height: 30px;
+}
+
+.result-content ul li strong{
+    color: var(--soft-red)
+}
+
