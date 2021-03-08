@@ -1,4 +1,4 @@
-# getkcal
+# 🔥 getkcal
 
 getkcal é um web app que te diz quantas calorias seu corpo precisa.
 
