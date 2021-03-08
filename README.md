@@ -1,4 +1,4 @@
-![logo](https://raw.githubusercontent.com/ugnh/getkcal/f18e2640f1a142659bc5ccbb1f0b7b3315e45568/assets/logo.svg?token=ASC3JEZXK4P53TRP5QEEXULAIZ5XO)
+# getkcal
 
 getkcal é um web app que te diz quantas calorias seu corpo precisa.
 
