@@ -3,7 +3,7 @@
 getkcal é um web app que te diz quantas calorias seu corpo precisa.
 
 ## 👨‍💻 Layout
-![mockup](https://drive.google.com/file/d/1sJs9kZPiIahMwsphmpLtr04pZm5dwjgG/view?usp=sharing)
+![mockup](https://raw.githubusercontent.com/ugnh/getkcal/main/assets/getkcal.gif?token=ASC3JEZT32FZVFGAZ4UWX3DAJDBXA)
 
 # 🚀 Tecnologias Usadas
 
